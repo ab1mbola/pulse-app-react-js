@@ -1,0 +1,236 @@
+.h4 {
+  font-size: 1.25rem;
+}
+
+.p {
+  font-size: 1.125rem;
+}
+
+.section-1 {
+  background-color: var(--mint-green);
+  padding: 5rem;
+}
+
+.section-1 h1 {
+  font-size: 3.75rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.section-1 h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.section-1 p {
+  font-size: 1.125rem;
+}
+
+.section-2 {
+  padding: 5rem;
+  border-top-width: 1px;
+}
+
+.section-2 .container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0px auto;
+  margin-bottom: 4rem;
+  padding: 0 1.5rem;
+}
+
+.section-2 .container .manage {
+  /* display: flex; */
+  width: 50%;
+  align-self: center;
+}
+
+.section-2 .container .manage h2 {
+  font-size: 3rem;
+  text-align: left;
+}
+
+.section-2 .container .gif {
+  /* width: 50%; */
+  padding-left: 3.4rem;
+}
+
+.section-2 .container .organise-features {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.section-2 .container .organise-features div {
+  width: 33%;
+  padding: 1rem 0;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.section-2 .container .organise-features div h4 {
+  font-size: 1.25rem;
+}
+
+.section-2 .container .organise-features div p {
+  font-size: 1.125rem;
+}
+
+.section-2 .container .organise-features div p:last-child {
+  margin-bottom: 0;
+}
+
+.section-3 {
+  padding: 6rem 0;
+  border-top-width: 1px;
+}
+
+.section-3 .container {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.section-3 .container .visualize {
+  width: 33%;
+  align-self: center;
+}
+
+.section-3 .container .visualize h2 {
+  font-size: 3rem;
+  text-align: left;
+  margin-bottom: 1.5rem;
+  line-height: 1.15;
+}
+
+.section-3 .container .visualize-right {
+  padding-left: 5rem;
+  width: 67%;
+}
+
+.section-3 .container .visualize-right .viz-gif {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.section-3 .container .reports-features {
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 100%; */
+}
+
+.section-3 .container .reports-features div {
+  width: 33%;
+  padding: 1rem 0;
+  text-align: left;
+  line-height: 1.4;
+}
+
+.section-3 .container .reports-features div h4 {
+  font-size: 1.25rem;
+  /* line-height: 1.15; */
+}
+
+.section-4 {
+  padding: 3rem 0;
+}
+
+.section-4 a {
+  font-size: 2.25rem;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.section-5 {
+  padding: 6rem 0;
+}
+
+.section-5 .monitor-intro {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.section-5 .connect {
+  width: 33%;
+  align-self: center;
+}
+
+.section-5 .connect h2 {
+  line-height: 1.15;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.section-5 .connect-gif {
+  padding-left: 5rem;
+  width: 67%;
+}
+
+.section-5 .flex {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.section-5 .monitor-features {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 1.5;
+}
+
+.section-5 .monitor-features div {
+  width: 33.33333%;
+  padding: 1rem 0;
+}
+
+.section-6 {
+  padding: 6rem 0;
+  border-top-width: 1px;
+}
+
+.section-6 .customize-intro {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5rem;
+  align-items: center;
+}
+
+.section-6 .customize-intro .text {
+  width: 33%;
+}
+
+.section-6 .text h2 {
+  font-size: 3rem;
+}
+
+.section-6 .svg {
+  padding-left: 5rem;
+
+  width: 67%;
+}
+
+.section-6 .svg .flex {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.section-6 .customize-features {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.section-6 .customize-features div {
+  width: 33%;
+  line-height: 1.5;
+  padding: 1rem 0;
+}

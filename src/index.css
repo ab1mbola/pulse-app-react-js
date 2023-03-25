@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0 solid #d6dae5;
+  /* background-color: var(--mint-green); */
+  font-family: Work Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+:root {
+  --emerald: #00ad6a;
+  --green: #1fe374;
+  --thyme: #d6dae5;
+  --mint-green: #eafaf1;
+  --dark-color: #080c16;
+  --light-color: #fcfcfc;
+  --blue: #3ba0f2;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.button {
+  padding: 1rem 2rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button-blue {
+  /* background: var(--blue); */
+  font-size: 1.5rem;
+  color: #fff;
+  border-color: var(--blue);
+  background-color: var(--blue);
+  box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.bg-green {
+  background-color: var(--mint-green);
+}
+
+.bg-gradient-green {
+  background-image: linear-gradient(90deg, #00ab6a, #23ea76);
+}

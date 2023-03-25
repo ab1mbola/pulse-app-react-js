@@ -1,0 +1,10 @@
+.gradient-banner {
+  padding: 3rem 0;
+}
+
+.gradient-banner a {
+  font-size: 2.25rem;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: underline;
+}
