@@ -1,0 +1,71 @@
+.container > div {
+  padding: 6rem 0;
+}
+
+.container .flex {
+  display: flex;
+  margin: 0 -1rem;
+}
+
+.container .flex > div {
+  width: 50%;
+  text-align: left;
+  margin-bottom: 0;
+  padding: 0 1rem;
+}
+
+.container .flex > div p {
+  margin-bottom: 3rem;
+  font-size: 1.125rem;
+}
+
+.flex > div p a {
+  text-align: left;
+}
+
+.flex .button {
+  font-size: 1rem;
+  color: var(--dark-green);
+}
+
+.footer-right {
+  width: 50%;
+  font-size: 1.125rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-right ul {
+  width: 33%;
+  padding: 1rem 0;
+  list-style: none;
+  display: block;
+}
+
+ul li {
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+ul li a {
+  font-weight: 400;
+}
+
+footer .bottom {
+  padding: 0.75rem 0;
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
+.bottom > div a {
+  text-decoration: underline;
+}
+
+.bottom > div a:hover {
+  color: var(--thyme);
+}
+
+.block {
+  display: block;
+  font-size: 0.75rem;
+}

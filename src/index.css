@@ -11,11 +11,13 @@
 
 :root {
   --emerald: #00ad6a;
+  --dark-green: #062c27;
   --green: #1fe374;
   --thyme: #d6dae5;
   --mint-green: #eafaf1;
   --dark-color: #080c16;
   --light-color: #fcfcfc;
+  --gray: #83858a;
   --blue: #3ba0f2;
 }
 
@@ -25,6 +27,18 @@ a {
 
 .text-center {
   text-align: center;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-green {
+  color: var(--green);
+}
+
+.text-gray {
+  color: var(--gray);
 }
 
 .button {
@@ -43,6 +57,16 @@ a {
   box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.2);
 }
 
+.button-gradient {
+  border-width: 0;
+  background-image: linear-gradient(90deg, #00ab6a, #23ea76);
+}
+
+.button-gradient:hover {
+  transition: 0.1s;
+  box-shadow: -5px 5px var(--gray);
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -56,4 +80,7 @@ a {
 
 .bg-gradient-green {
   background-image: linear-gradient(90deg, #00ab6a, #23ea76);
+}
+.bg-gray {
+  background-color: var(--dark-color);
 }

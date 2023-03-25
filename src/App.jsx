@@ -10,6 +10,7 @@ import CustomerStories from './pages/customer-stories/CustomerStories';
 import Pricing from './pages/pricing/Pricing';
 import Blog from './pages/blog/Blog';
 import SignUp from './pages/sign-up/SignUp';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -32,6 +33,8 @@ function App() {
 
           <Route path="sign-up" Component={SignUp} />
         </Routes>
+
+        <Footer />
       </BrowserRouter>
     </div>
   );
