@@ -1,4 +1,4 @@
-.container > div {
+.container .container-div {
   padding: 6rem 0;
 }
 
@@ -49,6 +49,11 @@ ul li {
 
 ul li a {
   font-weight: 400;
+}
+
+ul li a:hover {
+  color: var(--light-color);
+  transform: 0.3s;
 }
 
 footer .bottom {

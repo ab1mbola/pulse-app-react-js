@@ -21,8 +21,29 @@
   --blue: #3ba0f2;
 }
 
+svg {
+  display: block;
+  vertical-align: middle;
+}
+
 a {
   text-decoration: none;
+}
+
+.h1 {
+  font-size: 3.5rem;
+}
+
+.h2 {
+  font-size: 3rem;
+}
+
+.h4 {
+  font-size: 1.25rem;
+}
+
+.p {
+  font-size: 1.125rem;
 }
 
 .text-center {
@@ -54,6 +75,7 @@ a {
   color: #fff;
   border-color: var(--blue);
   background-color: var(--blue);
+  transition: ease-in 0.3s;
   box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.2);
 }
 

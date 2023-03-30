@@ -8,3 +8,9 @@
   font-weight: 700;
   text-decoration: underline;
 }
+
+.gradient-banner a:hover {
+  cursor: pointer;
+  color: var(--dark-color);
+  transition: ease-in-out 0.2s;
+}

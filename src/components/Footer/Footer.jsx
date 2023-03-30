@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray">
       <div className="container">
-        <div>
+        <div className="container-div">
           <div className="flex">
             <div className="text-center">
               <p>

@@ -35,8 +35,8 @@ header {
 }
 
 .navbar .navbar-items a:last-child:hover {
-  /* transform: translate(5px); */
-  transition: 0.1s;
   box-shadow: -5px 5px var(--emerald);
+  transition: all ease 0.1s;
+  transform: translateY(-5px);
   color: var(--emerald);
 }

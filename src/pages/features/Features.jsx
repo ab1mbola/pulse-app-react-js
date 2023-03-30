@@ -1,6 +1,7 @@
 import './Features.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
+import GradientOffer from '../../components/gradient-offer/GradientOffer';
 
 export default function Features() {
   return (
@@ -121,13 +122,15 @@ export default function Features() {
         </div>
       </section>
 
-      <section className="bg-gradient-green section-4">
+      {/* <section className="bg-gradient-green section-4">
         <div className="container">
           <p className="text-center">
             <Link to="sign-up">Sign Up for a Free 30-Day Trial →</Link>
           </p>
         </div>
-      </section>
+      </section> */}
+
+      <GradientOffer />
 
       <section className="section-5">
         <div className="monitor-intro container text-center">
@@ -225,14 +228,15 @@ export default function Features() {
       </div>
 
       {/* 30% off banner */}
-      <section className="bg-gradient-green section-4">
+      {/* <section className="bg-gradient-green section-4">
         <div className="container">
           <p className="text-center">
             <Link to="sign-up">Sign Up for a Free 30-Day Trial →</Link>
           </p>
         </div>
-      </section>
+      </section> */}
       {/*  */}
+      <GradientOffer />
     </div>
   );
 }

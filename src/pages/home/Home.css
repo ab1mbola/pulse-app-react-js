@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.home-hero-gradient {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1552px;
+  height: 850px;
+  background: linear-gradient(
+    90deg,
+    #fcfcfc,
+    #eafaf1 20%,
+    #eafaf1 50%,
+    #eafaf1 80%,
+    #fcfcfc
+  );
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: -2;
+}
+
+.home-hero-gradient-accent {
+  position: absolute;
+  bottom: -300px;
+  left: 50%;
+  width: 2000px;
+  height: 700px;
+  background-image: radial-gradient(
+    49% 48%,
+    rgba(0, 173, 106, 0.13) 0,
+    rgba(0, 173, 106, 0) 77%
+  );
+  -webkit-transform: translateX(-50%) rotate(-10deg);
+  transform: translateX(-50%) rotate(-10deg);
+  z-index: -1;
+}
+
+.container {
+}
+
+.home-hero {
+  padding-top: 2rem;
+  padding-bottom: 24rem;
+}
+
+.title {
+  position: relative;
+  z-index: 2;
+  line-height: 1;
+  margin-bottom: 1.5rem;
+}
+
+.title .marker-circle {
+  position: absolute;
+  transform: translate(50%, -80%);
+  transition: all 0.3s ease;
+  width: 400px;
+  z-index: -1;
+  /* transform: translateX(50%); */
+}
+
+@keyframes circle {
+  from {
+    transform: translateX(50%) translateY(-80);
+  }
+  to {
+    transform: translateX(50%) translateY(-80px);
+  }
+}
+
+.marker-circle {
+  animation-name: circle;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.title .sign-up {
+  /* margin: 2rem; */
+}
+
+.title-sub {
+  width: 60%;
+  line-height: 1.5;
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.title-sub .marker-arrow {
+  position: absolute;
+  /* transform: translate(100%); */
+}
+
+.home-hero-2 {
+  padding: 8rem 0;
+  border-color: #dadbdc;
+}
+
+.home-hero-2 .text-center .h2 {
+  margin-bottom: 1rem;
+}
+
+.home-hero-2 .container .home-quotes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.5;
+}
+
+.home-hero-2 .container .home-quotes .quotes {
+  max-width: 480px;
+  padding-top: 4rem;
+}
+
+.quotes {
+}

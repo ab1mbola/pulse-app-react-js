@@ -17,7 +17,9 @@ export default function Navbar() {
           <NavLink to="/customer-stories">Customer Stories</NavLink>
           <NavLink to="/pricing">Pricing</NavLink>
           <NavLink to="/blog">Blog</NavLink>
-          <NavLink to="/sign-up">Sign Up</NavLink>
+          <NavLink to="/sign-up" className="hover-bs">
+            Sign Up
+          </NavLink>
         </div>
       </nav>
     </header>
