@@ -43,7 +43,10 @@ const Home = () => {
             </Link>
 
             <p>
-              Plans start at $29. <Link to="pricing"> See full pricing</Link>
+              Plans start at $29.{' '}
+              <Link to="pricing">
+                <strong> See full pricing</strong>
+              </Link>
             </p>
           </div>
         </div>
@@ -134,6 +137,56 @@ const Home = () => {
                 breeze.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="home-hero-3">
+        <div className="smarter-business-decisions container">
+          <div className="decisions-content">
+            <h2 className="h2">Make smarter business decisions with Pulse.</h2>
+            <p>
+              Do you know if you can hire another employee or take some money
+              out of the company? Should you take on that new project or should
+              turn it down? With Pulse, you immediately see how business
+              decisions will impact your cash in the future, which in turn gives
+              you the confidence you need to know if the decision is right.
+            </p>
+          </div>
+
+          <div className="testimony">
+            <div className="testimony-content">
+              <img src="/assets/carl-smith-avatar.png" alt="carl smith" />
+              <p className="carl-testimony">
+                "Pulse makes my business smarter. We make better decisions
+                because we can see further. You could say it has lowered our
+                stress level by removing the fear of not knowing"
+              </p>
+              <p className="person-info">Carl Smith, Bureau of Digital</p>
+              <p>
+                <Link to="cutomer-stories">Read Customer Story →</Link>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="hero-small-biz">
+        <div className="container">
+          <div>
+            <h2 className="h2">
+              Pulse is specifically designed for small busniesses.
+            </h2>
+
+            <p>
+              Our customers include creative and technology agencies, service
+              providers, restaurants, manufacturers, retail shops, contractors,
+              freelancers, and more.
+            </p>
+
+            <Link to="sign-up" className="button">
+              Sign Up For a Free 30-Day Trial
+            </Link>
           </div>
         </div>
       </section>
