@@ -34,9 +34,9 @@ header {
   padding: 8px 15px;
 }
 
-.navbar .navbar-items a:last-child:hover {
+.navbar .navbar-items .hover-bs:hover {
   box-shadow: -5px 5px var(--emerald);
   transition: all ease 0.1s;
-  transform: translateY(-5px);
+  transform: translate(-50%, 5%);
   color: var(--emerald);
 }

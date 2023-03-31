@@ -110,6 +110,7 @@
 .home-hero-2 {
   padding: 8rem 0;
   border: 0 solid #dadbdc;
+  background: var(--light-color);
   border-width: 1px;
 }
 
@@ -127,6 +128,10 @@
 .home-hero-2 .container .home-quotes .quotes {
   max-width: 480px;
   padding-top: 4rem;
+}
+
+.home-hero-3 {
+  background: var(--light-color);
 }
 
 .home-hero-3 .smarter-business-decisions {
@@ -157,13 +162,20 @@
   text-align: center;
   padding: 3rem 2rem;
   width: 83%;
+  background-color: #fff;
   margin: 0 auto;
   border: 0 solid #d6dae5;
   border-width: 1px;
 }
 
+.home-hero-3 .person-info {
+  font-weight: 700;
+  color: var(--gray);
+}
+
 .testimony-content img {
   margin-bottom: 1rem;
+  width: 5rem;
 }
 
 .testimony-content .carl-testimony {
@@ -220,4 +232,166 @@
   /* transform: ; */
   transition: all 0.1s ease-in-out;
   box-shadow: -5px 5px var(--gray);
+}
+
+.blog {
+  background: var(--light-color);
+  padding: 8rem 0;
+}
+
+.blog .container .blog-title {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.blog .container .blog-title > div {
+  max-width: 654px;
+}
+
+.blog .container .blog-title > div > h2 {
+  margin-bottom: 1rem;
+  line-height: 1.15;
+  font-size: 3rem;
+}
+
+.blog-title > div > p {
+  font-size: 1.25rem;
+}
+
+.blog-story {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1rem;
+}
+
+.blog-story .blog-stories {
+  width: 33%;
+  display: flex;
+  padding: 1rem;
+}
+
+.blog-story .blog-stories a {
+  border: 0 solid #d6dae5;
+  border-width: 1px;
+}
+
+.blog-story .blog-stories a:hover {
+  transform: translate(2%, -2%);
+  border-color: var(--emerald);
+  box-shadow: -10px 10px 0px var(--emerald);
+}
+
+.box .image {
+  max-width: 360px;
+}
+
+.box .image > img {
+  width: 100%;
+}
+
+.box .blog-content {
+  padding: 1rem 1.5rem 1.5rem;
+}
+
+.blog-content .blog-theme {
+  padding-top: 1rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--gray);
+}
+
+.blog-content .blog-topic {
+  color: var(--dark-color);
+  font-weight: 700;
+  font-size: 1.25rem;
+  padding-top: 0.25rem;
+}
+
+.blog-content .story-bit {
+  padding-top: 0.5rem;
+  line-height: 1.3;
+  color: var(--gray);
+}
+
+.blog-content .read {
+  color: var(--emerald);
+  padding-top: 0.5rem;
+  font-size: 0.875rem;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.pulse-features {
+  background: var(--light-color);
+  text-align: center;
+}
+
+.pulse-features .container > div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.pulse-features .container > div .features-question {
+  max-width: 600px;
+}
+
+.features-question h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.features-question p {
+  font-size: 1.125rem;
+}
+
+.pulse-features .container .home-features {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.home-features .card {
+  padding: 1.5rem 2rem;
+}
+
+.card > h4 {
+  font-size: 1.25rem;
+  line-height: 1.15;
+  margin-top: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.card > p {
+  font-size: 0.875rem;
+  line-height: 1.15;
+}
+
+.pulse-features .container > p {
+  margin-top: 1rem;
+}
+
+.pulse-features .container > p > a {
+  text-decoration: underline;
+  color: var(--emerald);
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+
+/* home-her-3 clone (notn really tho) */
+.home-hero-3 .container .decisions-content > p {
+  margin-top: 3rem;
+}
+
+.home-hero-3 .container .decisions-content a {
+  border: 1px solid var(--emerald);
+  color: var(--emerald);
+}
+
+.home-hero-3 .container .decisions-content a:hover {
+  transform: translate(2%, -2%);
+  border-color: var(--emerald);
+  box-shadow: -5px 5px 0px var(--emerald);
 }
