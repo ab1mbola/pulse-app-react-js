@@ -8,7 +8,7 @@
   position: absolute;
   top: 0;
   left: 50%;
-  width: 1552px;
+  width: 1220px;
   height: 850px;
   background: linear-gradient(
     90deg,
@@ -27,7 +27,7 @@
   position: absolute;
   bottom: -300px;
   left: 50%;
-  width: 2000px;
+  width: 1200px;
   height: 700px;
   background-image: radial-gradient(
     49% 48%,
@@ -350,6 +350,7 @@
 
 .pulse-features .container .home-features {
   display: grid;
+  place-items: center;
   grid-template-columns: 1fr 1fr 1fr;
 }
 

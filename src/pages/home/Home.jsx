@@ -7,9 +7,9 @@ import './Home.css';
 const Home = () => {
   return (
     <main className="main">
-      {/* <div className="home-hero-gradient">
+      <div className="home-hero-gradient">
         <div className="home-hero-gradient-accent"></div>
-      </div> */}
+      </div>
       <section className="home-hero bg-green">
         <div className="container">
           <div className="title">
