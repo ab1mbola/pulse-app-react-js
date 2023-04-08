@@ -1,0 +1,255 @@
+.pricing-hero {
+  background: var(--mint-green);
+  border-bottom-width: 1px;
+}
+
+.pricing-hero > .container {
+  padding-bottom: 2.5rem;
+  margin-bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.pricing-hero > .container > .heading {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.heading > h1 {
+  margin-bottom: 1rem;
+  font-size: 3.75rem;
+  letter-spacing: -2px;
+}
+
+.heading > p {
+  color: var(--gray);
+  font-size: 1.125rem;
+}
+
+.pricing-hero > .container > .pricing-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+.pricing-cards > .card {
+  padding: 2rem;
+}
+
+.pricing-cards > .card > .container > h2 {
+  font-size: 1.25rem;
+  color: var(--emerald);
+  margin-bottom: 1rem;
+}
+
+.card > .container > ul {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  color: var(--grey);
+}
+
+.card > .container > ul > li {
+  font-weight: normal;
+}
+
+.card > .container > p {
+  font-size: 1rem;
+  color: var(--grey);
+}
+
+.card > .container > p > a {
+  color: var(--dark-color);
+  text-decoration: underline;
+}
+
+.pricing-cards > .cards {
+}
+
+.pricing-cards > .cards:first-child > a {
+}
+
+.pricing-cards > .cards > a {
+  color: var(--grey);
+  text-decoration: none;
+  text-align: center;
+  border-color: var(--emerald);
+  border-radius: 8px 8px 0 0;
+  height: 100%;
+  display: block;
+  background: #fff;
+}
+
+a.recommended {
+  border: 1px solid var(--emerald);
+}
+
+.pricing-cards > .cards > a > div {
+  padding: 3rem 2rem 1.5rem 3rem;
+  position: relative;
+  height: 100%;
+}
+
+a.recommended > div > .recommended-banner {
+  border-radius: 8px 8px 0 0;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.25rem 0;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: var(--emerald);
+  color: #fff;
+}
+
+a.recommended > div > .content > .content-header > div:nth-child(1) {
+  color: var(--emerald);
+  font-weight: 700;
+  margin-top: 1rem;
+  padding: 0 1rem;
+  letter-spacing: -2px;
+  line-height: 1;
+  font-size: 3rem;
+}
+
+a > div > .content > .content-header > div:nth-child(2) {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+  line-height: 1;
+  color: var(--gray);
+  letter-spacing: 0.5px;
+}
+
+a > div > .content > .content-header > div:nth-child(3) > .pricing-button {
+  font-size: 1.125rem;
+  display: inline-block;
+  padding: 0.5rem 2rem 0.75rem 2rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  background-color: var(--green);
+  transform: scale(1.1);
+  transition: all 0.05s ease-in-out;
+}
+
+a > div > .content > .content-header > div:nth-child(4) {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+a > div > .content > ul {
+  text-align: left;
+  list-style: square;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  letter-spacing: -0.5px;
+}
+
+a > div > .container > ul > li {
+  position: relative;
+  padding: 0.5rem 0;
+}
+
+a > div > .container > ul > li::before {
+  content: '';
+  position: absolute;
+  left: -14px;
+  top: 14px;
+  width: 12px;
+  height: 12px;
+  background-image: url(../../../public/assets/icon-check-bullet.svg);
+  background-repeat: no-repeat;
+}
+
+a > div > .content > ul > li > span {
+  font-weight: 400;
+}
+
+.cards:last-child > a {
+  border-radius: 0;
+  border: 1px solid var(--thyme);
+}
+
+.cards > a > div > .banner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* border-radius: 8px 8px 0 0; */
+  width: 100%;
+  padding: 1.25rem 2rem 1.5rem 2rem;
+  font-size: 0.875rem;
+  background-color: #f2f3f3;
+  border-bottom: 1px solid var(--thyme);
+  color: var(--dark-color);
+}
+
+a.card-link > div > .content > .content-header > div:nth-child(1) {
+  margin-top: 3.5rem;
+  font-size: 2.25rem;
+  color: var(--emerald);
+}
+
+a.card-link > div > .content > .content-header > div:nth-child(2) {
+  color: var(--gray);
+}
+
+.pricing-hero .container > .marketing {
+  text-align: center;
+  max-width: 800px;
+}
+
+.pricing-hero .container > .marketing > .content > div:first-child {
+  padding: 1rem 0;
+  color: var(--dark-color);
+  font-size: 1.5rem;
+}
+
+.pricing-hero .container > .marketing > .content > div:last-child {
+  color: var(--emerald);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+
+.faq {
+  background: var(--light-color);
+  padding: 6rem 0;
+}
+
+.faq > .container {
+}
+
+.faq > .container > h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  letter-spacing: -2px;
+  color: var(--dark-color);
+}
+
+.faq > .container > .faq-blocks {
+  display: grid;
+  place-items: center;
+  grid-template-columns: auto auto;
+}
+
+.faq-blocks > .blocks {
+  padding: 2rem 0;
+  margin-right: 3rem;
+}
+
+.faq-blocks > .blocks > h4 {
+  font-size: 1.25rem;
+  line-height: 1.15;
+  color: var(--dark-color);
+}
+
+.faq-blocks > .blocks > p {
+  color: var(--grey);
+  font-size: 1.125rem;
+  line-height: 1.5;
+}

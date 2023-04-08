@@ -124,6 +124,10 @@
   margin-top: 3.5rem;
 }
 
+.reviews > .card > div > p.mt {
+  margin-top: 2.35rem;
+}
+
 .reviews > .card > div > p:last-child {
   font-weight: 700;
   font-size: 0.875rem;

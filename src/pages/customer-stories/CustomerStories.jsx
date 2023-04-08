@@ -195,7 +195,7 @@ const CustomerStories = () => {
                   for some weeks, and we love it because it's simple and totally
                   web-based."
                 </p>
-                <p>
+                <p className="mt">
                   Simone Lovati, founder, <Link>Fashionbi.com</Link>
                 </p>
               </div>
